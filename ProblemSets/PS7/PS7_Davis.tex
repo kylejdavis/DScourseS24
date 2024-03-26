@@ -1,0 +1,43 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{PS7}
+\author{Kyle Davis}
+
+\begin{document}
+\maketitle
+
+
+
+\section{}
+
+The rate at which logwages is missing is 0.69 percent and is MCAR.
+
+\section{}
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{table.jpg}
+\caption{\label{fig:table}Table.}
+\end{figure}
+
+The models generated the same result on every variable which I imagine isn't supposed to happen but AI said it was just because I was using the same variables so I am unsure. They all equaled 0.062 for the coefficient. The pattern is they all are the same which seems off as I mentioned. 
+The selection of an imputation method depends on the nature of missing data, data complexity, and the desired balance between efficiency and robustness.
+The last two estimates were identical to the former as well as with one another.
+
+\section{}
+My project is finished as far as the data. I am using statistics from 2021-2023 to create a prediction of 2024 fantasy score using variables that are more consistent across someones career such as hard hit rate, contact rate, and home run to fly ball ratio. I am doing it over three years to create adjustments for each player based on a moving average and resulting in a fantasy point per game number that I used to draft my team this year. I utilized a lasso regression since there is some intercorrelation between the independent variables. 
+
+
+\end{document}
