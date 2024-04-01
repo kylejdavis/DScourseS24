@@ -1,0 +1,89 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{PS8}
+\author{Kyle Davis}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+The beta difference in 1 in -0.0010100138. so the true beta is greater the the estimate.
+
+\section{Some examples to get started}
+
+Yes the answers differ with the gradient descent - L-BFGS being:
+0.21424496 -0.42167989 -0.06994913 -0.46863335  0.09807015 -0.40477672
+-0.90381391  0.05995393 -0.28358541 -0.03010323
+These numbers are listed in the martix order.
+
+
+\section{}
+
+\begin{table}[!htbp] \centering 
+  \caption{Regression Results} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Y \\ 
+\hline \\[-1.8ex] 
+ X1 & 1.501$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X2 & $-$1.001$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X3 & $-$0.252$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X4 & 0.749$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X5 & 3.501$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X6 & $-$2.001$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X7 & 0.499$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X8 & 1.003$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X9 & 1.247$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X10 & 2.001$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 100,000 \\ 
+R$^{2}$ & 0.991 \\ 
+Adjusted R$^{2}$ & 0.991 \\ 
+Residual Std. Error & 0.500 (df = 99990) \\ 
+F Statistic & 1,075,526.000$^{***}$ (df = 10; 99990) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+The actual values are very similar to the estimated values with the largest difference being only 3 thousandths. 
+\end{document} 
